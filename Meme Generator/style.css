@@ -1,0 +1,44 @@
+.meme-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.meme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.meme {
+  border: 1px solid black;
+  margin: 10px;
+  position: relative;
+}
+
+.meme img {
+  width: 300px;
+}
+
+.meme .top-text,
+.meme .bottom-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.meme .top-text {
+  top: 0;
+}
+
+.meme .bottom-text {
+  bottom: 0;
+}
+
+.delete-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
