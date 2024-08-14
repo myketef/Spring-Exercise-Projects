@@ -1,0 +1,24 @@
+Part I
+
+1. make a directory called first **mkdir first**
+2. change directory to the first folder **cd first**
+3. create a file called person.txt **touch person.txt**
+4. change the name of the file to another.txt **mv person.txt another.txt**
+5. make a copy of the another.txt file and call it copy.txt **cp another.txt copy.txt**
+6. remove the copy.txt file **rm copy.txt**
+7. make a copy of the first folder and call it second **cp -r first second**
+8. delete the second folder **rm -rf second**
+
+Part II
+
+1. The man command lists the manual for a commandD or Control ⌃-D to advance half a page B or Control ⌃-B to go back one page U or Control ⌃-U to go back half a page.
+2. The `-l` flag lists files in a list format with more detail and the `-a` lists all files and folders including hidden ones.
+3. option left/right
+4. control + e
+5. control + a
+6. option + delete
+7. The terminal is a program is just an interface to the shell. The shell is what actually handles commands and so forth; the terminal program just gives it a way to interact with the environment.
+8. An absolute path is a path that starts from the root route and gives the complete location for a file or folder.
+9. A relative path is a path that starts at the current location and not the root route.
+10. A flag adds additional functionality to an existing command, we have seen -a and -l for the ls command and -r for the cp and rm commands.
+11. r will remove folders and recursively go through each folder and file and f will force removal.
