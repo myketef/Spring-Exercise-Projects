@@ -1,6 +1,6 @@
-# Section 10 Exercises
+# Section 14 Exercises
 
-## 10.2 let and const Exercise
+## 14.2 let and const Exercise
 
 ```javascript
 var PI = 3.14; // ES5 version
@@ -26,7 +26,7 @@ const PI = 3.14; // ES2015 version
 
 - Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their scope during the compilation phase. This means you can use a variable or function before it's declared in your code. However, the value of a var variable is undefined before it's assigned, while let and const variables are not initialized until their declaration. It's important to note that only variable and function declarations are hoisted, not their assignments or initializations.
 
-## 10.3 Arrow Funciton Exercises
+## 14.3 Arrow Funciton Exercises
 
 First exercise:
 
@@ -51,11 +51,11 @@ const squareAndFindEvens = (numbers) =>
   numbers.map((num) => num ** 2).filter((square) => square % 2 === 0);
 ```
 
-## 10.4 Rest and Spread Exercises
+## 14.4 Rest and Spread Exercises
 
 See rest-spread.js script file in this repository
 
-## 10.5 Object Enhancements
+## 14.5 Object Enhancements
 
 Same keys and values:
 
@@ -104,7 +104,7 @@ function createAnimal(species, verb, noise) {
 }
 ```
 
-## 10.6 Destructuring
+## 14.6 Destructuring
 
 - Object Destructuring 1
   - 8
@@ -156,7 +156,7 @@ const raceResults = ([first, second, third, ...rest]) => ({
 });
 ```
 
-## 10.7 Maps and Sets
+## 14.7 Maps and Sets
 
 - Quick Question 1
   - Set(4) \[1,2,3,4 \]
