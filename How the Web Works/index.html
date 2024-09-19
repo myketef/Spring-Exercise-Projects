@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my simple web page!</h1>
+    <h3>Part Two: Practice Tools</h3>
+
+    <hr />
+
+    <section>
+      <h3>Question 1: Using curl to make a GET request</h3>
+      <p>Open a command prompt and run the following command:</p>
+      <code>
+        curl -X GET \ https://icanhazdadjoke.com/search \ -H 'Accept:
+        application/json' \ -d 'term=pirate'
+      </code>
+    </section>
+
+    <hr />
+
+    <section>
+      <h3>Question 2: Finding the IP address of icanhazdadjoke.com</h3>
+      <p>Open a command prompt and run the following command:</p>
+      <code> dig +short icanhazdadjoke.com </code>
+      <p>For Windows:</p>
+      <code> nslookup icanhazdadjoke.com </code>
+      <p>Example output:</p>
+      <pre>
+        Server: Unknown
+        Address: 192.168.100.1
+
+        Non-authoritative answer:
+        Name: icanhazdadjoke.com
+        Addresses: 104.21.66.15 172.67.198.173
+      </pre>
+    </section>
+
+    <hr />
+
+    <section>
+      <h3>Question 3: Running a simple HTTP server</h3>
+      <p>
+        Open a command prompt, navigate to the desired directory, and run the
+        following command:
+      </p>
+      <code> python3 -m http.server </code>
+    </section>
+  </body>
+</html>

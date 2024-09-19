@@ -1,0 +1,28 @@
+Part One: Solidify Terminology
+1. HTTP (Hyper Text Transfer Protocol): HTTP defines the rules for how information gets sent back and forth, specifically, what kind of information can be requested, how it's formatted, and how responses are sent.
+
+2. URL (Uniform Resource Locator):  This is the web address you type into your browser. It tells your computer exactly where to find a specific resource online, such as a webpage, image, or video.
+
+3. DNS (Domain Name System):  Think of DNS as a giant phonebook for the internet. It translates those easy-to-remember website names (like "google.com") into the actual numerical addresses computers use (like 172.217.19.164).
+
+4. Query String:  This is the part of a URL that comes after a question mark (?). It's used to send specific information to a webpage, including search terms or filters. 
+
+5. HTTP Verbs:
+- GET: This verb is used to retrieve a specific resource (like a webpage).
+- POST: This verb is used for sending information. It's used to submit data to a server, when you fill out a form online.
+
+6. HTTP Request: This is the message your browser sends to the server using the HTTP language. It includes the URL, the verb, and any additional information needed.
+
+7. HTTP Response: This is the reply message the server sends back to your browser after receiving the request. It contains the requested data (such as a webpage) or an error message if something went wrong.
+
+8. HTTP Header:  Think of headers as additional information attached to both requests and responses. They provide details about the content being sent or received.
+
+Request Header Examples: User-Agent, Accept-Language, Cookie, Authorization, Accept-Encoding
+Response Header Examples: Content-Type, Content-Length, Status Code, Location, ETag
+
+9. Process When You Type a URL:
+
+- DNS Lookup: Your computer uses DNS to translate “http://somesite.com/some/page.html” into the server's numerical IP address.
+- HTTP Request: Your browser sends an HTTP request with the GET verb and the full URL to the server.
+- Server Response: The server processes the request, retrieves "some/page.html", and sends an HTTP response back to your browser.
+- Displaying the Page: Your browser receives the response, understands the content type (likely HTML), and renders the webpage on your screen.
