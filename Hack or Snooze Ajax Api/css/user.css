@@ -1,0 +1,23 @@
+/* Login and signup forms */
+.account-form button {
+  width: 4rem;
+  margin-left: 81px;
+}
+
+#signup-form button {
+  width: 9rem;
+}
+
+.account-forms-container {
+  padding-left: 21px;
+}
+
+/* User profile */
+.user-profile-box {
+  padding: 9px 21px 21px;
+  font-size: 0.9rem;
+}
+
+.user-profile-box > * {
+  margin: 9px 0;
+}
