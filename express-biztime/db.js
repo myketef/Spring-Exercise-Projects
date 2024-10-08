@@ -1,24 +1,13 @@
 /** Database setup for BizTime. */
 
-const { Pool } = require('pg')
-const fs = require('fs')
 
-const db = new Pool({
-    user: 'biztimeAdmin',
-    host: 'localhost',
-    database: 'biztime',
-    password: 'password',
-    port: 5432,
+const { Client } = require("pg")
+
+const client = new Client({
+  connectionString: "postgresql:///biztime"
 })
 
-const dataSql = fs.readFileSync('./data.sql', 'utf8')
+client.connect()
 
-db.query(dataSql, (err, result) => {
-    if (err) {
-        console.error(err)
-    } else {
-        console.log('Initial data loaded successfully')
-    }
-})
 
-module.exports = db
+module.exports = client
