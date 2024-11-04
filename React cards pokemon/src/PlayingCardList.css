@@ -1,0 +1,12 @@
+.PlayingCardList {
+  flex: 1;
+  flex-direction: column;
+  background: rgba(34, 146, 34, 0.883);
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.PlayingCardList-card-area {
+  flex: 1;
+}
